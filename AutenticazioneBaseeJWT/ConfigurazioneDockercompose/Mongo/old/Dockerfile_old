@@ -1,0 +1,21 @@
+FROM ubuntu:18.04
+
+MAINTAINER nicola.larocca@xantrix.it
+
+RUN apt-get update && apt-get install -y mongodb && apt-get install nano
+
+# Create the MongoDB data directory
+RUN mkdir -p /data/db
+
+# Expose port #27017 from the container to the host
+EXPOSE 37017
+
+# Set /usr/bin/mongod as the dockerized entry-point application
+#ENTRYPOINT ["mongod -f /etc/mongodb.conf"]
+CMD ["mongod", "-f", "/etc/mongodb.conf"]
+#ENTRYPOINT ["mongod"]
+
+# avvio sudo docker run -d -p 37017:27017 -v ~/data:/data/db mongo
+# mongo --port 37017
+# docker run -d --net=Mongonet -p 37017:27017  -v ~/data:/data/db my_mongodb
+# sudo docker build -t my_mongodb3 .

@@ -1,0 +1,21 @@
+#==========================================================
+#= GestUser Web Service - Versione Base
+#==========================================================
+
+server:
+  port: 8019
+spring:
+  application:
+    name: GestUser
+#==========================================================
+#= PARAMETRI DB MONGODB 
+#==========================================================
+  data:
+    mongodb:
+      authentication-database: admin
+      database: ms-users
+      host: localhost
+      password: 123Stella
+      port: 37017
+      username: nicola
+      auto-index-creation: true
