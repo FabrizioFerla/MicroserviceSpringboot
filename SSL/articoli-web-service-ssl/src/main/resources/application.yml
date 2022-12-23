@@ -1,0 +1,51 @@
+#==========================================================
+#= Articoli Web Service - Versione SSL
+#==========================================================
+server:
+  port: 5443
+# ==============================================================
+# = Impostazioni ssl
+# ==============================================================
+  ssl:
+    enabled: true
+    key-store-type: PKCS12
+    key-store: classpath:certificate.pfx
+    key-store-password: 123_Stella
+
+
+#Generazione Self-Signed Certificate:
+# keytool -genkeypair -alias articoli -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore keystore.p12 -validity 3650
+
+#Sito OpenSSL: http://slproweb.com/products/Win32OpenSSL.html
+#Sito ZeroSSL: https://zerossl.com/
+#Conversione certificati:
+# openssl pkcs12 -export -in certificate.crt -inkey private.key -out certificate.pfx
+  
+spring:
+  application:
+    name: ArticoliWebService
+#==========================================================
+#= PARAMETRI DBMS POSTGRESQL 
+#==========================================================
+  sql:
+    init:
+      mode: always
+      platform: postgres
+  datasource:
+    password: 123_Stella
+    url: jdbc:postgresql://localhost:5433/Alphashop
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+#==========================================================
+#Opzioni Accesso Servizio gestuser  
+#==========================================================          
+gestuser:
+  srvUrl: http://localhost:8019/api/utenti/cerca/userid/
+  userId: ReadUser
+  password: BimBumBam_2018
