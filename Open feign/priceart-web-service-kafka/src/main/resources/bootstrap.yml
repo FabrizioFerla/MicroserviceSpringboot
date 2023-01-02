@@ -1,0 +1,80 @@
+#==========================================================
+#= PriceArt Web Service - Versione OAUTH2
+#==========================================================
+server:
+  #port: 5071
+  port: 507${seq}
+ 
+spring:
+  application:
+    name: PriceArtService
+
+  cloud:
+# ==============================================================
+# = Proprietà Config Server
+# ==============================================================
+    config:
+      uri: http://localhost:8888
+      profile: ${profilo}
+      label: ${ramo}
+      
+      #profile: list1
+      #label: promo
+      
+      fail-fast: true
+      request-connect-timeout: 5
+      retry:
+        max-attempts: 10
+        max-interval: 1500
+      username: user
+      password: BimBumBam_2018
+# ==============================================================
+# = Proprietà Kafka Bus
+# ==============================================================
+    bus:
+      #id: ${spring.application.name}:${spring.cloud.profile}:${random.uuid}
+      enabled: true
+      refresh:
+        enabled: true
+      env:
+        enabled: true
+  kafka:
+    bootstrap-servers:
+    - ${KAFKA_ADDR:http://localhost:29092}
+    client-id: ${spring.application.name}:${profilo}:507${seq}
+
+
+# ==============================================================
+# = Proprietà Fonte Dati PostgreSQL
+# ==============================================================
+  sql:
+    init:
+      mode: always
+      platform: postgres
+  datasource:
+    password: 123_Stella
+    url: jdbc:postgresql://localhost:5433/Alphashop
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+# ==============================================================
+# = Livello Log di Sicurezza
+# ==============================================================  
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+# ==============================================================
+# = Parametri Sicurezza OAUTH2 con KeyCloack 
+# ==============================================================
+keycloak:
+  auth-server-url: http://localhost:8080/auth
+  realm: Alphashop
+  resource: PriceArtService
+  public-client: true 
