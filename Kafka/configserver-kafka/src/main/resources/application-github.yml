@@ -1,0 +1,21 @@
+# ==============================================================
+# = Config Server Versione Base
+# = PROFILO GITHUB
+# ==============================================================
+
+spring:
+  config:
+    activate:
+      on-profile: github
+  application:
+    name: config-server-github
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Test-SpringCloud/priceart-config.git
+          username: Test-SpringCloud
+          password: ENC(5p5g0IZKNz4isfXJfw8BWvT11+2Eyxkn46/31zMOJO/9n7NIzPI3x/hb6GPMCNgiYfKBUBaOzIo=) #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
+          timeout: 5 #in secondi
+          cloneOnStart: true
+          default-label: master

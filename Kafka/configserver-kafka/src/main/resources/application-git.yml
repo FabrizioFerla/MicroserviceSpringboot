@@ -1,0 +1,17 @@
+# ==============================================================
+# = Config Server Versione Base
+# = PROFILO GIT
+# ==============================================================
+
+spring:
+  config:
+    activate:
+      on-profile: git
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///H:\git-config-repository #file:///home/nicola/Documents/git-config-repository
+          default-label: master

@@ -1,0 +1,62 @@
+# ==============================================================
+# = Config Server Base
+# ==============================================================
+
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: config-server
+  config:
+    use-legacy-processing: false
+# ==============================================================
+# = Profilo Attivo
+# ============================================================== 
+  profiles:
+    active: github
+# ==============================================================
+# = Bus Parameters
+# ============================================================== 
+  cloud:
+    bus:
+      #id: ${spring.application.name}:${spring.profiles.active}:${random.uuid}
+      enabled: true
+  kafka:
+    bootstrap-servers:
+    - ${KAFKA_ADDR:http://localhost:29092}
+    client-id: ${spring.application.name}:${spring.profiles.active}:${random.uuid}
+# ==============================================================
+# = Actuator Parameters
+# ==============================================================
+management:
+  info:
+    env:
+      enabled: true
+  endpoint:
+    health:
+      show-details: WHEN_AUTHORIZED
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,refresh,bus-refresh,bus-env
+    
+    
+# ==============================================================
+# = Logs Parameters
+# ==============================================================        
+logging:
+  level:
+    org.springframework.cloud: DEBUG
+    org.springframework.security: DEBUG
+    
+sicurezza:
+  userpwd: ${uspwd} 
+  adminpwd: ${adpwd}  
+  
+jasypt: 
+  encryptor:
+    password: ${enpwd} 
+    
+    
+# end point: http://localhost:8888/{application-name}/{profile}[/{label}]
