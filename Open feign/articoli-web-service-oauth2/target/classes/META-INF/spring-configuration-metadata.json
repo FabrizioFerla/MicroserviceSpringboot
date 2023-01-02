@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "management.endpoint.custom-info",
+      "type": "com.xantrix.webapp.components.CustomInfoEndpoint",
+      "sourceType": "com.xantrix.webapp.components.CustomInfoEndpoint"
+    }
+  ],
+  "properties": [
+    {
+      "name": "management.endpoint.custom-info.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.xantrix.webapp.components.CustomInfoEndpoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.custom-info.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the customInfo endpoint.",
+      "sourceType": "com.xantrix.webapp.components.CustomInfoEndpoint",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

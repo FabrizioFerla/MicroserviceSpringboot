@@ -1,0 +1,17 @@
+# ==============================================================
+# = Config Server Base
+# ==============================================================
+
+server:
+  port: 8888
+  
+spring:
+  config:
+    use-legacy-processing: false
+# ==============================================================
+# = Profilo Attivo
+# ============================================================== 
+  profiles:
+    active: github
+    
+# end point: http://localhost:8888/{application-name}/{profile}[/{label}]

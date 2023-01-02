@@ -1,0 +1,246 @@
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (23ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:09 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=448FC585B8D4E9CCF5E11D2D8E7A6452; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"056933102","prezzo":1.02,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 056933102: 1.02
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> GET http://PriceArtService/api/prezzi/info/057154601/ HTTP/1.1
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: gzip
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: deflate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (12ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:10 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=CA1971406138F60FF0F0B3C63D95E080; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"057154601","prezzo":2.36,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 057154601: 2.36
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> GET http://PriceArtService/api/prezzi/info/057154602/ HTTP/1.1
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: gzip
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: deflate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (30ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:11 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=5D9B32F7543886566457D6A13EBC92B6; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"057154602","prezzo":0.61,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 057154602: 0.61
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> GET http://PriceArtService/api/prezzi/info/057517601/ HTTP/1.1
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: gzip
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: deflate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (31ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:11 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=719B2F1628055827E029B56AE21490DD; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"057517601","prezzo":0.78,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 057517601: 0.78
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> GET http://PriceArtService/api/prezzi/info/058420901/ HTTP/1.1
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: gzip
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: deflate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (24ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:10 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=8BB0F9E4873CBDA95ADE41BADB59A934; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"058420901","prezzo":0.84,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 058420901: 0.84
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> GET http://PriceArtService/api/prezzi/info/058578901/ HTTP/1.1
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: gzip
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: deflate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (28ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:11 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=72D45A741C6D3AFD148D17D1C07FE0FA; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"058578901","prezzo":0.44,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 058578901: 0.44
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> GET http://PriceArtService/api/prezzi/info/402597501/ HTTP/1.1
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: gzip
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: deflate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (13ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:11 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=4D2ECD53C2894B24E7C7B15B9F7059C1; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"402597501","prezzo":8.12,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 402597501: 8.12
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> GET http://PriceArtService/api/prezzi/info/403030401/ HTTP/1.1
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: gzip
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: deflate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (16ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:10 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=1D86FD83CCB82EBB2B97B28248D9E0B2; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"403030401","prezzo":5.21,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 403030401: 5.21
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> GET http://PriceArtService/api/prezzi/info/905519301/ HTTP/1.1
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: gzip
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: deflate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (27ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:11 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=8158E8976FC95B5C04E6122DCB0A273C; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"905519301","prezzo":1.51,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 905519301: 1.51
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> GET http://PriceArtService/api/prezzi/info/907987401/ HTTP/1.1
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: gzip
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Accept-Encoding: deflate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1YTlsZ0RuMGI1X09hT3l5SVBWaThyb3AxVG5LRWx4VGJhRmdoREVZMTlRIn0.eyJleHAiOjE2NDkzNDA4MTMsImlhdCI6MTY0OTM0MDUxMywianRpIjoiZTEyMDYwYTUtMWE3Zi00NjhlLWFhY2ItNzU1ZTk1MmM0YjA4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0FscGhhc2hvcCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkMDA4NDUzNC02ZmNjLTRhMDEtYTIwNy02NWQ4OTI4OTBlYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJBcnRpY29saS1XZWItU2VydmljZSIsInNlc3Npb25fc3RhdGUiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hbHBoYXNob3AiLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiI2YmM1NjJiNS0xODNjLTQxNDEtYTkwYi04YzE3MzU3ZjNhZmMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJOaWNvbGEgTGEgUm9jY2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiIsImdpdmVuX25hbWUiOiJOaWNvbGEiLCJmYW1pbHlfbmFtZSI6IkxhIFJvY2NhIn0.gOu9uw73wJWPBk_jIik6yfjsvBblODDoFgdjYqxKyyiHpiiI_Sy2OSjPM6aSwQcY0xMQfjSpnSc8hvPo49qw8b40_vGEFycbyfiMDRe-bUTvfZQ76vlB4yTBDDGHEzhcKAR3wsPJfP_IYGT0JCUk4hfq3iwfsM2KYrOXLgxJ8oiWGUH1hFsB4__A3HGBA4MvPlNOlgxVWzkSbsYZHCJz4-JF-E8KPj85kj6Ipf-s4pZnvFXz0HmuNvFF0P0kJFYF_EavMBFjZNbTvhGQLjfU_awMj8KMvUKYumAORIQkrnOg_Txb72cV1u0fluCyMEDIOEUiFxC85QduyHp9lbQioA
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] ---> END HTTP (0-byte body)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- HTTP/1.1 200 (27ms)
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] cache-control: no-cache, no-store, max-age=0, must-revalidate
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] connection: keep-alive
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] content-type: application/json
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] date: Thu, 07 Apr 2022 14:13:11 GMT
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] expires: 0
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] keep-alive: timeout=60
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] pragma: no-cache
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] set-cookie: JSESSIONID=4D70885AA602485F8AB4E39CA1D523EB; Path=/; HttpOnly
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] transfer-encoding: chunked
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-content-type-options: nosniff
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-frame-options: DENY
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] x-xss-protection: 1; mode=block
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] 
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] {"codArt":"907987401","prezzo":0.69,"sconto":15.0,"tipo":0}
+07-04-2022 [http-nio-5051-exec-3] DEBUG com.xantrix.webapp.feign.PriceClient - [PriceClient#getPriceArt2] <--- END HTTP (59-byte body)
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Prezzo Articolo 907987401: 0.69
+07-04-2022 [http-nio-5051-exec-3] INFO  c.x.w.controllers.ArticoliController - Attivato Sconto: 15.0%
+07-04-2022 [http-nio-5051-exec-3] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=KeycloakAuthenticationToken [Principal=d0084534-6fcc-4a01-a207-65d892890ea0, Credentials=[PROTECTED], Authenticated=true, Details=org.keycloak.adapters.springsecurity.account.SimpleKeycloakAccount@18b40a9e, Granted Authorities=[ROLE_admin, ROLE_offline_access, ROLE_default-roles-alphashop, ROLE_uma_authorization]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@575b6276]
+07-04-2022 [http-nio-5051-exec-3] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Did not store empty SecurityContext
+07-04-2022 [http-nio-5051-exec-3] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+07-04-2022 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+07-04-2022 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+07-04-2022 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+07-04-2022 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ARTICOLIWEBSERVICE with eureka with status DOWN
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1649342130463, current=DOWN, previous=UP]
+07-04-2022 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ARTICOLIWEBSERVICE/localhost:ArticoliWebService:5051: registering service...
+07-04-2022 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ARTICOLIWEBSERVICE/localhost:ArticoliWebService:5051 - registration status: 204
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ARTICOLIWEBSERVICE/localhost:ArticoliWebService:5051 - deregister  status: 200
+07-04-2022 [RMI TCP Connection(49)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
