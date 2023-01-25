@@ -1,0 +1,107 @@
+# ==============================================================
+# = API GATEWAY Server Zool Base
+# ==============================================================
+
+spring:
+  application:
+    name: ZoolServer
+server:
+  port: 8765
+  tomcat:
+    max-threads: 5
+    
+# ==============================================================
+# = Zuul Parameters
+# ============================================================== 
+zuul:
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 60000
+  prefix: /gateway
+  stripPrefix: true
+  ignoredServices: '*'
+# ==============================================================
+# = Route Parameters
+# ==============================================================
+  routes:
+    articoli:
+      path: /getart/**
+      serviceId: ProductsWebService
+      sensitive-headers: Cookie,Set-Cookie
+
+ProductsWebService:
+  ribbon:
+   ReadTimeout: 60000
+   ConnectTimeout: 20000
+   MaxTotalHttpConnections: 500
+   MaxConnectionsPerHost: 100  
+   
+hystrix:
+  command:
+    ProductsWebService:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 90000
+            
+# ==============================================================
+# = Eureka Properties  
+# = Nota: prima di attivare il servizio servono tre heartbeat
+# ==============================================================
+eureka:
+# ==============================================================
+# = Impostazioni Instance
+# ============================================================== 
+  instance:
+    #intervallo di attesa prima della rimozione del servizio (def 90 sec)
+    lease-expiration-duration-in-seconds: 60
+    #intervallo di invio dell'heartbeat (def 30 sec)
+    leaseRenewalIntervalInSeconds: 15
+    #id di identificazione dell'istanza
+    instanceId: ${server.port}-${spring.application.name}
+    #registrazione per indirizzo ip (defualt hostname)
+    preferIpAddress: true
+# ==============================================================
+# = Impostazioni Client
+# ============================================================== 
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+     defaultZone: ${EUREKA_URL:http://user:BimBumBam_2018@localhost:8761/eureka/}
+    #time out di connessione in secondi al server Eureka (def 5 sec) 
+    eureka-server-connect-timeout-seconds: 8
+    
+# ==============================================================
+# = Logs Parameters
+# ==============================================================        
+logging:
+  level:
+    org.springframework.cloud: DEBUG
+    org.springframework.security: DEBUG            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+      
+  
