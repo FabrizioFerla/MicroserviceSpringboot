@@ -10,30 +10,30 @@ services:
       NIFI_WEB_HTTPS_PORT: "8080"
     volumes:
       - sender:/opt/nifi/sender
-      - recive:/opt/nifi/recive
+      - receive:/opt/nifi/receive
 
   zookeeper:
-    image: confluentinc/cp-zookeeper:latest
+    image: wurstmeister/zookeeper:latest
+    container_name: zookeeper
     ports:
       - "2181:2181"
     environment:
       ZOOKEEPER_CLIENT_PORT: "2181"
 
   kafka:
-    image: confluentinc/cp-kafka:latest
+    container_name: kafka
+    image: wurstmeister/kafka:latest
     depends_on:
       - zookeeper
     ports:
       - "9092:9092"
     environment:
-      KAFKA_BROKER_ID: 1
+      KAFKA_ADVERTISED_HOST_NAME: localhost
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
-      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      
 
-  
   spark:
+    container_name: spark
     image: docker.io/bitnami/spark:3.3
     environment:
       - SPARK_MODE=master
@@ -43,9 +43,8 @@ services:
       - SPARK_SSL_ENABLED=no
     ports:
       - '9090:9090'
-    volumes:
-      -".:/opt/bitnami/spark/bin/spark/example "
-  spark-worker:
+  spark-worker:spark-worker
+    container_name: 
     image: docker.io/bitnami/spark:3.3
     environment:
       - SPARK_MODE=worker
@@ -63,10 +62,10 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device: /Users/fabrizioferla/desktop/sender
-  recive:
+      device: /Users/fabrizioferla/Documents/Progetti/MicroserviceSpringboot/Nifi-Kafka-Spark/sender
+  receive:
     driver: local
     driver_opts:
       type: none
       o: bind
-      device: /Users/fabrizioferla/desktop/recive
+      device: /Users/fabrizioferla/Documents/Progetti/MicroserviceSpringboot/Nifi-Kafka-Spark/receive
