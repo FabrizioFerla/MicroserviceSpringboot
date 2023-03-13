@@ -1,0 +1,26 @@
+creazione topic
+
+docker exec broker \
+kafka-topics --bootstrap-server broker:9092 \
+             --create \
+             --topic quickstart
+			 
+			 
+PRODUTTORE
+
+
+docker exec --interactive --tty broker \
+kafka-console-producer --bootstrap-server broker:9092 \
+                       --topic quickstart
+					   
+					   
+CONSUMATORE
+
+
+docker exec --interactive --tty broker \
+kafka-console-consumer --bootstrap-server broker:9092 \
+                       --topic quickstart \
+                       --from-beginning
+					   
+					   
+se da errore su winpty  aggiungere il comando winpty  prima di ogni comando docker
